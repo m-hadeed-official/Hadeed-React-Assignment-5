@@ -1,0 +1,44 @@
+.counter-app {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  flex-flow: column;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.counter-container {
+  display: flex;
+  gap: 10px;
+}
+
+.counter-heading {
+  font-size: 3rem;
+
+  text-align: center;
+}
+
+.counter-button {
+  font-size: 2rem;
+  padding: 0px 30px;
+  background-color: lightblue;
+}
+.counter-reset {
+  font-size: 2rem;
+  background-color: lightcoral;
+  padding: 15px 20px;
+}
+.counter-reset:hover {
+  background-color: coral;
+  color: white;
+}
+
+.counter-button:hover {
+  background-color: blue;
+  color: white;
+}
+.counter-number {
+  padding: 15px 20px;
+  color: darkblue;
+  font-size: 2.5rem;
+  border: 2px solid darkblue;
+}

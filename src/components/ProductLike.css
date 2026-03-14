@@ -1,0 +1,26 @@
+.like-container {
+  padding: 15px;
+  background: lightsalmon;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column;
+
+  gap: 5px;
+}
+.like-button {
+  font-size: 1rem;
+  background-color: lightblue;
+}
+.like-button:hover {
+  font-size: 1rem;
+  background-color: rgb(95, 154, 174);
+}
+
+.like-count {
+  font-size: 1.2rem;
+}
+
+.like-heading-container {
+  display: flex;
+  gap: 8px;
+}
